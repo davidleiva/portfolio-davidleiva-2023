@@ -1,10 +1,11 @@
 import Image from 'next/image';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 
 export default function ProjectFooter(props) {
   const animationDuration = 1000;
   const router = useRouter();
+
   const [isTransitioning, setIsTransitioning] = useState(false);  
   const handleClick = (e) => {
     e.preventDefault();

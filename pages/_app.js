@@ -5,7 +5,7 @@ import { Poppins } from "@next/font/google";
 import MainHeader from "../components/mainHeader";
 import ProjectsMenu from "../components/projectsMenu";
 import { useRouter } from "next/router";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -13,7 +13,7 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   const [menuOpened, setMenuOpened] = useState(false);
   const prevShouldRenderMenu = useRef();
   const childRef = useRef(null);
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
     } else if (router.asPath === "/projects/energysystem") {
       setMenuItemActive(7);
     }
-  }, [router.isReady, router.query]);
+  }, [router.isReady, router.query, router.asPath]);
 
 
   const siblingFunction = () => {
@@ -106,5 +106,3 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;

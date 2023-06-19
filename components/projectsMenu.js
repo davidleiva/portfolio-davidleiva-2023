@@ -2,13 +2,14 @@ import Image from 'next/image';
 import Link from 'next/link'
 import gsap from "gsap";
 import { useRouter } from "next/router";
-import { useEffect, useRef, useState, forwardRef, useImperativeHandle } from 'react';
+import { useEffect, useState, forwardRef, useImperativeHandle } from 'react';
 import { browserName } from 'react-device-detect';
 
 
 const ProjectsMenu = (props,ref) => {
 
     const router = useRouter();
+    console.log('1');
     const [isTransitioning, setIsTransitioning] = useState(false);
    
     let menuItemHovered = null;
@@ -57,7 +58,7 @@ const ProjectsMenu = (props,ref) => {
             router.events.off("routeChangeComplete", transitionAnimationEnd);
             router.events.off("routeChangeError", transitionAnimationEnd);
         };
-    }, [router]);
+    }, [router, props, menuItemHovered]);
 
 
 
