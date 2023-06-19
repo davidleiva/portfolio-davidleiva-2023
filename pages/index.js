@@ -217,7 +217,6 @@ export default function Home() {
                 and working for digital design agencies in the past.
               </div>
               <div>
-                Coding is also an important part of my career: I've worked as a UX engineer and front-end developer for some years, 
                 and this helps me understand and communicate better with developers when working together with them.
                 <br /><br />
                 I love to work in top-notch digital products, within agile mindset companies, that set the mark for the rest.
