@@ -127,9 +127,9 @@ export default function Home() {
               {" "}
               Hello! I&apos;m <br />
               <span className="font-normal" id="text-shuffle">
-                José Luis
+                David
                 <br />
-                González{" "}
+                Leiva{" "}
               </span>
             </span>
           </h1>
@@ -176,48 +176,33 @@ export default function Home() {
               About me
             </h1>
             <h3 className="text-center text-2xl lg:text-3xl font-extralight py-5 reveal">
-             Over <b>20 years</b> of design experience,
-              based in <b>Valencia</b>. 
+             Over <b>15 years</b> of design experience,
+              based in <b>Barcelona</b>. 
               Nowadays I work as a{" "}
-              <b>Senior UX Designer/Engineer</b> at{" "}
-              <a href="http://www.elastic.co" target="_blank" rel="noreferrer">
-                Elastic
+              <b>Product Designer</b> at{" "}
+              <a href="http://www.newrelic.com" target="_blank" rel="noreferrer">
+                New Relic
               </a>
-              , making useful and delightful developer tools.
+              , helping to create a great observability platform.
             </h3>
             <p className="text-center  text-lg lg:text-xl py-5 font-extralight reveal">
               Formerly{" "}
               <a
-                href="http://www.newrelic.com"
+                href="https://www.netcentric.biz/"
                 target="_blank"
                 rel="noreferrer"
               >
-                New Relic
+                Cognizant
               </a>
               ,{" "}
-              <a href="http://www.qatium.com" target="_blank" rel="noreferrer">
-                Qatium
+              <a href="https://landbot.io/" target="_blank" rel="noreferrer">
+                Landbot
               </a>
               ,{" "}
-              <a href="http://www.idrica.com" target="_blank" rel="noreferrer">
-                Idrica
+              <a href="https://life5.es/" target="_blank" rel="noreferrer">
+                Life5
               </a>
               ,{" "}
-              <a
-                href="http://www.globalomnium.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Global Omnium
-              </a>
-              ,{" "}
-              <a
-                href="http://www.nectarestudio.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Nectar Estudio
-              </a>{" "}
               among others.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-base lg:text-lg font-extralight py-5 reveal">
@@ -232,29 +217,17 @@ export default function Home() {
                 and working for digital design agencies in the past.
               </div>
               <div>
-                Teaching was also and important part of my career leading the {" "}
-                <a
-                  href="https://www.esat.es/estudios/postgrado-especializado-en-diseno-y-desarrollo-web-front-end/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  ID3 post degree
-                </a>
-             
-                {" "} and teaching UX/UI and frontend for 12 years. Sharing knowledge
-                with the future generations.
-                <br />
-                <br />
-                That’s why I also really enjoy mentoring people, promoting design
-                methodologies, improving team relationships and making bridges
-                between design and engineering.
+                Coding is also an important part of my career: I've worked as a UX engineer and front-end developer for some years, 
+                and this helps me understand and communicate better with developers when working together with them.
+                <br /><br />
+                I love to work in top-notch digital products, within agile mindset companies, that set the mark for the rest.
               </div>
             </div>
             <div>
               <ul className="flex justify-center py-5 ">
                 <li className="mr-6">
                   <a
-                    href="mailto:hola@joseluis.design"
+                    href="mailto:davidleivaherrero@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -263,7 +236,7 @@ export default function Home() {
                 </li>
                 <li className="mr-6">
                   <a
-                    href="https://www.linkedin.com/in/joseluisgj/"
+                    href="https://www.linkedin.com/in/davidleiva-fe/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -272,7 +245,7 @@ export default function Home() {
                 </li>
                 <li className="mr-6">
                   <a
-                    href="https://twitter.com/jose_luis_gj"
+                    href="https://twitter.com/david_leiva_"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -281,14 +254,14 @@ export default function Home() {
                 </li>
                 <li className="mr-6">
                   <a
-                    href="https://github.com/ergum"
+                    href="https://github.com/davidleiva"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Image className="" src={githubIcon} alt="Github" />
                   </a>
                 </li>
-                <li className="mr-6">
+                {/* <li className="mr-6">
                   <a
                     href="https://medium.com/@joseluisgj"
                     target="_blank"
@@ -296,7 +269,7 @@ export default function Home() {
                   >
                     <Image className="" src={mediumIcon} alt="Medium" />
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
