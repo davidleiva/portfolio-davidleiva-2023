@@ -38,7 +38,7 @@ import newrelicFigmaWorkflow1 from "../../public/assets/newrelic-figma-workflow-
 import newrelicFigmaWorkflow2 from "../../public/assets/newrelic-figma-workflow-2.png";
 import newrelicFigmaWorkflow3 from "../../public/assets/newrelic-figma-workflow-3.png";
 
-import qatiumCoverBackground from "../../public/assets/qatium-cover-background.jpg";
+import qatiumCoverBackground from "../../public/assets/life5-cover-background.png";
 
 export default function NewRelic(props) {
   useEffect(() => {
@@ -151,10 +151,10 @@ export default function NewRelic(props) {
       </div>
       <ProjectFooter
         {...props}
-        backgroundColor="#22222E"
+        backgroundColor="#423EF4"
         backgroundImage={qatiumCoverBackground}
-        title="Qatium"
-        url="qatium"
+        title="Life5"
+        url="life5"
       />
     </>
   );
