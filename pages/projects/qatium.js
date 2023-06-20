@@ -72,7 +72,7 @@ export default function Qatium(props) {
         <ProjectBlock
           type={1}
           backgroundColor="#3C3B59"
-          images={[qatiumIllustration1]}
+          // images={[qatiumIllustration1]}
           texts={[
             "The product",
             "Qatium is a disruptive water management system which breaks the traditional workflows and ways to work in the industry. It democratizes the access to that service to any kind of city, government or management company no matter the data, knowledge or budget they have.",
