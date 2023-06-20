@@ -38,7 +38,7 @@ export default function Figmap(props) {
   return (
     <>
       <Head>
-      <title>José Luis González - Portfolio - Figmap</title>
+      <title>David Leiva - Portfolio - Figmap</title>
         <meta name="description" content="Side project making the Figmap plugin for Figmap"/>
         <link rel="preload" href="/assets/figmap-cover-hero-1.png" as="image" />
         <link rel="preload" href="/assets/figmap-cover-hero-2.png" as="image" />

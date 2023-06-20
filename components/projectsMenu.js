@@ -9,7 +9,6 @@ import { browserName } from 'react-device-detect';
 const ProjectsMenu = (props,ref) => {
 
     const router = useRouter();
-    console.log('1');
     const [isTransitioning, setIsTransitioning] = useState(false);
    
     let menuItemHovered = null;
@@ -159,33 +158,29 @@ const ProjectsMenu = (props,ref) => {
                         <Link onMouseEnter={() => showBackground('.imageBackground1')} onMouseLeave={() => hiddeBackground('.imageBackground1')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 1 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/newrelic">New Relic</Link>
                     </li>
                     <li className='menuItem'>
-                        <Link onMouseEnter={() => showBackground('.imageBackground2')} onMouseLeave={() => hiddeBackground('.imageBackground2')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 2 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/qatium">Qatium</Link>
+                        <Link onMouseEnter={() => showBackground('.imageBackground2')} onMouseLeave={() => hiddeBackground('.imageBackground2')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 2 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/life5">Life 5</Link>
                     </li>
                     <li className='menuItem'>
-                        <Link onMouseEnter={() => showBackground('.imageBackground3')} onMouseLeave={() => hiddeBackground('.imageBackground3')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 3 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/goaigua">GoAigua</Link>
+                        <Link onMouseEnter={() => showBackground('.imageBackground3')} onMouseLeave={() => hiddeBackground('.imageBackground3')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 3 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/timedi">TiMedi</Link>
                     </li>
                     <li className='menuItem'>
-                        <Link onMouseEnter={() => showBackground('.imageBackground4')} onMouseLeave={() => hiddeBackground('.imageBackground4')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 4 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/figmap">Figmap</Link>
+                        <Link onMouseEnter={() => showBackground('.imageBackground4')} onMouseLeave={() => hiddeBackground('.imageBackground4')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 4 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/landbot">Landbot</Link>
                     </li>
                     <li className='menuItem'>
-                        <Link onMouseEnter={() => showBackground('.imageBackground5')} onMouseLeave={() => hiddeBackground('.imageBackground5')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 5 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/globalomnium">Global Omnium</Link>
+                        <Link onMouseEnter={() => showBackground('.imageBackground5')} onMouseLeave={() => hiddeBackground('.imageBackground5')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 5 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/cognizant">Gognizant</Link>
                     </li>
                     <li className='menuItem'>
-                        <Link onMouseEnter={() => showBackground('.imageBackground6')} onMouseLeave={() => hiddeBackground('.imageBackground6')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 6 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/muchosol">Muchosol</Link>
-                    </li>
-                    <li className='menuItem'>
-                        <Link onMouseEnter={() => showBackground('.imageBackground7')} onMouseLeave={() => hiddeBackground('.imageBackground7')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 7 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/energysystem">Energy System</Link>
+                        <Link onMouseEnter={() => showBackground('.imageBackground6')} onMouseLeave={() => hiddeBackground('.imageBackground6')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 6 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/sumem">Sumem</Link>
                     </li>
                 </ul>
             </div>
 
             <Image fill className='imageBackground1 hide-back object-cover opacity-0 z-[1]' src={`/assets/newrelic-cover-background.jpg`} alt='Project New Relic background image' />
-            <Image fill className='imageBackground2 hide-back object-cover opacity-0 z-[2]' src={`/assets/qatium-cover-background.jpg`} alt='Project Qatium background image' />
-            <Image fill className='imageBackground3 hide-back object-cover opacity-0 z-[3]' src={`/assets/goaigua-cover-background.jpg`} alt='Project Goaigua background image' />
-            <Image fill className='imageBackground4 hide-back object-cover opacity-0 z-[4]' src={`/assets/figmap-cover-background.jpg`} alt='Project Figmap background image' />
-            <Image fill className='imageBackground5 hide-back object-cover opacity-0 z-[5]' src={`/assets/global-omnium-cover-background.jpg`} alt='Project Global Omnium background image' />
-            <Image fill className='imageBackground6 hide-back object-cover opacity-0 z-[6]' src={`/assets/muchosol-cover-background.jpg`} alt='Project Muchosol background image' />
-            <Image fill className='imageBackground7 hide-back object-cover opacity-0 z-[7]' src={`/assets/energy-system-cover-background.jpg`} alt='Project Energy System background image' />
+            <Image fill className='imageBackground2 hide-back object-cover opacity-0 z-[2]' src={`/assets/life5-cover-background.png`} alt='Project Life5 background image' />
+            <Image fill className='imageBackground3 hide-back object-cover opacity-0 z-[3]' src={`/assets/timedi-cover-background.png`} alt='Project Timedi background image' />
+            <Image fill className='imageBackground4 hide-back object-cover opacity-0 z-[4]' src={`/assets/landbot-cover-background.png`} alt='Project Landbot background image' />
+            <Image fill className='imageBackground5 hide-back object-cover opacity-0 z-[5]' src={`/assets/cognizant-cover-background.png`} alt='Project Gognizant background image' />
+            <Image fill className='imageBackground6 hide-back object-cover opacity-0 z-[6]' src={`/assets/sumem-cover-background.png`} alt='Project Sumem background image' />
         </div>
     );
 }

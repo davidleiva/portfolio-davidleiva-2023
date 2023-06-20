@@ -213,10 +213,11 @@ export default function Home() {
                 languages to solve complex user problems.
                 <br />
                 <br />
-                My strong visual and experiential mindset comes from co-founding
-                and working for digital design agencies in the past.
+                My strong visual and experiential mindset comes from co-founding start-ups
+                and working for design agencies in the past.
               </div>
               <div>
+                Coding is also an important part of my career: I have worked as a UX engineer and front-end developer for some years, 
                 and this helps me understand and communicate better with developers when working together with them.
                 <br /><br />
                 I love to work in top-notch digital products, within agile mindset companies, that set the mark for the rest.
@@ -262,7 +263,7 @@ export default function Home() {
                 </li>
                 {/* <li className="mr-6">
                   <a
-                    href="https://medium.com/@joseluisgj"
+                    href=""
                     target="_blank"
                     rel="noreferrer"
                   >
