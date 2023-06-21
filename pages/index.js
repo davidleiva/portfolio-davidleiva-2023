@@ -14,6 +14,8 @@ import twitterIcon from "../public/assets/twitter-icon.svg";
 import linkedinIcon from "../public/assets/linkdin-icon.svg";
 import githubIcon from "../public/assets/github-icon.svg";
 import emailIcon from "../public/assets/email-icon.svg";
+import cvIcon from "../public/assets/cv.svg";
+
 import mediumIcon from "../public/assets/medium-icon.svg";
 
 export default function Home() {
@@ -225,6 +227,15 @@ export default function Home() {
             </div>
             <div>
               <ul className="flex justify-center py-5 ">
+              <li className="mr-6">
+                  <a
+                    href="https://drive.google.com/file/d/1TVcDo5O5d7_QjNhyALz2-MvDLzUDX7sJ/view"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image className="" src={cvIcon} alt="email" />
+                  </a>
+                </li>
                 <li className="mr-6">
                   <a
                     href="mailto:davidleivaherrero@gmail.com"

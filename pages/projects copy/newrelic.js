@@ -88,7 +88,7 @@ export default function NewRelic(props) {
           backgroundColor="#161C22"
           texts={[
             "The product",
-            "New Relic is the observability leader product where the most of the Developers, DevOps, SRE and Business manager rely on. Self definied as the all-in-one observability solution to leverage engineering data to create a more perfect software.",
+            "New Relic is the observability leader product where the most of the Developers, DevOps, SRE and Business manager rely on. Self defined as the all-in-one observability solution to leverage engineering data to create a more perfect software.",
             "It let them monitor, debug, and improve their entire stack. Measuring performance getting analytics and getting useful insights throughout the full software developing lifecycle. ",
           ]}
         />

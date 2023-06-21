@@ -88,7 +88,7 @@ export default function NewRelic(props) {
           backgroundColor="#161C22"
           texts={[
             "The product",
-            "New Relic is the observability leader product where the most of the Developers, DevOps, SRE and Business manager rely on. Self definied as the all-in-one observability solution to leverage engineering data to create a more perfect software.",
+            "New Relic is the observability leader product where the most of the Developers, DevOps, SRE and Business manager rely on. Self defined as the all-in-one observability solution to leverage engineering data to create a more perfect software.",
             "It let them monitor, debug, and improve their entire stack. Measuring performance getting analytics and getting useful insights throughout the full software developing lifecycle. ",
           ]}
         />
@@ -122,7 +122,7 @@ export default function NewRelic(props) {
           images={[newrelicHomepage1, newrelicHomepage2, newrelicHomepage3, newrelicHomepage4, newrelicHomepage5]}
           texts={[
             "Homepage concept",
-            "Design lead for the new product homepage in order to guide the users on what to do next based on user profiling, user maturity and data ingested. This project was kicked off making a design sprint where we realized that users need to be hand holded when they land into the product instead of overwhelming them with paygates. MPVs were tested and validated with user interviews.<br/><br/>It was a crossteam endeavor where observability, platform and growth teams were coordinated to obtain a scalable solution which could cover the different user needs on different user states and journeys, aiming to first ingest data, then use the different capabilities and last improve the observability coverage of the system.",
+            "Design lead for the new product homepage in order to guide the users on what to do next based on user profiling, user maturity and data ingested. This project was kicked off making a design sprint where we realized that users need to be hand holded when they land into the product instead of overwhelming them with paygates. MVPs were tested and validated with user interviews.<br/><br/>It was a crossteam endeavor where observability, platform and growth teams were coordinated to obtain a scalable solution which could cover the different user needs on different user states and journeys, aiming to first ingest data, then use the different capabilities and last improve the observability coverage of the system.",
           ]}
         />
         <ProjectBlock

@@ -72,14 +72,14 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content="David Leiva - Portfolio - Product Designer and Code Lover"/>
         <meta name="twitter:description" content="David Leiva portfolio, product designer, UX engineer, frontend developer. Last projects and use cases working on former companies like New Relic, Qatium, Idrica, GoAigua, Nectar Estudio."/>
         <link rel="icon" href="favicon.ico" />
-
+{/* 
         <link rel="preload" href="/assets/newrelic-cover-background.jpg" as="image"/>
         <link rel="preload" href="/assets/qatium-cover-background.jpg" as="image"/>
         <link rel="preload" href="/assets/goaigua-cover-background.jpg" as="image"/>
         <link rel="preload" href="/assets/figmap-cover-background.jpg" as="image"/>
         <link rel="preload" href="/assets/global-omnium-cover-background.jpg" as="image"/>
         <link rel="preload" href="/assets/muchosol-cover-background.jpg" as="image"/>
-        <link rel="preload" href="/assets/energy-system-cover-background.jpg" as="image"/>
+        <link rel="preload" href="/assets/energy-system-cover-background.jpg" as="image"/> */}
       </Head>
       <Script beforeInteractive src="/newrelic.agent.js" />
 
