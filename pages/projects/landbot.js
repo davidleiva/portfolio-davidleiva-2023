@@ -15,9 +15,15 @@ import figmapCoverHero2 from "../../public/assets/figmap-cover-hero-2.png";
 import figmapCoverHero3 from "../../public/assets/figmap-cover-hero-3.png";
 
 import figmapCoverBackground from "../../public/assets/landbot-cover-background-2.png";
-import figmapLogosComp from "../../public/assets/landbot-illustration-2.jpeg";
+// import figmapLogosComp from "../../public/assets/landbot-illustration-2.jpeg";
+import figmapLogosComp from "../../public/assets/landbot-super-builder.avif";
+
+
 import figmapLogosComp2 from "../../public/assets/landbot-web.png";
 import figmapLogosComp3 from "../../public/assets/landbot-integrations.png";
+import figmapLogosComp4 from "../../public/assets/landbot-webhooks.avif";
+import figmapLogosComp5 from "../../public/assets/landbot-academy.png";
+import figmapLogosComp6 from "../../public/assets/landbot-resources.jpeg";
 
 import figmapCommunityList from "../../public/assets/figmap-community-list.png";
 import figmapIconFigma from "../../public/assets/figmap-icon-figma.png";
@@ -26,7 +32,7 @@ import figmapIconInstalls from "../../public/assets/figmap-icon-installs.png";
 import figmapIconMau from "../../public/assets/figmap-icon-mau.png";
 import globalOmniumCoverBackground from "../../public/assets/cognizant-cover-background.png";
 
-import qatiumIllustration1 from "../../public/assets/landbot-illustration-1.png";
+import qatiumIllustration1 from "../../public/assets/landbot-mini.avif";
 
 
 export default function Figmap(props) {
@@ -111,6 +117,46 @@ export default function Figmap(props) {
           texts={[
             "Integrations, and more",
             "I was very involved in all areas of the project: from working on components in the design system and storybook implementation, to other areas of the product. Also mention my contribution in 'integrations', which made me know the APIs of other products to be able to use them within our ecosystem.",
+          ]}
+        />
+        <ProjectBlock
+          pushTop
+          pushBottom
+          invertTextColor
+          // reverse
+          type={3}
+          backgroundColor="#ffffff"
+          images={[figmapLogosComp4]}
+          texts={[
+            "Make the difficult easy",
+            "Most Landbot users have no programming knowledge. That is why, when it comes to facilitating the integration of third parties, or the creation of complex functions, we had to analyze the user experience constantly.",
+          ]}
+        />
+        <ProjectBlock
+          pushTop
+          pushBottom
+          invertTextColor
+          // reverse
+          type={1}
+          backgroundColor="#eaecff"
+          images={[figmapLogosComp5]}
+          texts={[
+            "Solution: an academy",
+            "We turned Landbot into something that users can 'learn' step by step. We created a community of users.",
+            "Here, users share knowledge, and can find specific courses to solve their needs. This worked like a charm."
+          ]}
+        />
+
+        <ProjectBlock
+          pushTop
+          pushBottom
+          invertTextColor
+          type={3}
+          backgroundColor="#eaecff"
+          images={[figmapLogosComp6]}
+          texts={[
+            "Tons of custom graphic assets",
+            "Branding and our look & feel was a key part of our product. I helped make branding more consistent and contributed to the style guide of it. We were fast to deliver on the needs we had day-by-day and with good quality overall",
           ]}
         />
  
