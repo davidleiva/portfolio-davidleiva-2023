@@ -38,7 +38,9 @@ import newrelicFigmaWorkflow1 from "../../public/assets/newrelic-figma-workflow-
 import newrelicFigmaWorkflow2 from "../../public/assets/newrelic-figma-workflow-2.png";
 import newrelicFigmaWorkflow3 from "../../public/assets/newrelic-figma-workflow-3.png";
 
-import qatiumCoverBackground from "../../public/assets/life5-cover-background.png";
+import qatiumCoverBackground from "../../public/assets/life5-cover-background-2.png";
+
+import qatiumIllustration1 from "../../public/assets/diagram-capabilities.png";
 
 export default function NewRelic(props) {
   useEffect(() => {
@@ -103,6 +105,8 @@ export default function NewRelic(props) {
             "Unifying and consolidating the storytelling of entities as an artifact which emits and/or receives data represented visually as an hexagon shape around the whole product.<br/><br/>The high density view or honeycomb aims to show in a more visual way your entities and stand out the most relevant metrics and issues that can affect your system entity health.<br/><br/>Decreasing the cognitive load for non advanced users introducing the concept of entity and system health to make it more human understandable for those entities which are non performing properly or have deviations, having security issues, alarms alerting, and much more. Converging different sources that can affect it in just one concept.",
           ]}
         />
+
+
         <ProjectBlock
           offsetRight
           type={5}
@@ -114,6 +118,70 @@ export default function NewRelic(props) {
             "As a part of the team who revamped the new product navigation I was working on the initial research, early concepts and interactive probe of concepts which ended up conforming the new left navigation which was launched together with the new company rebranding.<br/><br/>The challenge was to find the most scalable approach for the plenty of verticals and solutions that the product has and be useful not only for advanced users but also for newbie ones and let customisation for those who need to make their own space based on their user profiling, SRE, developers, DevOps…",
           ]}
         />
+        {/* Custom Figmap block  */}
+        <div
+          className={`relative flex justify-center overflow-hidden`}
+          style={{ backgroundColor: "#00344a" }}
+        >
+          <div className="max-w-5xl px-8 xl:px-0 flex flex-col items-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 py-6 md:py-12 max-w-4xl reveal">
+              <div className="flex flex-col items-center text-white">
+                {/* <Image
+                  className="pb-8"
+                  src={figmapIconFigma}
+                  alt="Figma icon"
+                  width={54}
+                  height={54}
+                /> */}
+                <h4 className="text-2xl md:text-4xl font-bold">Goal</h4>
+                <h6 className="text-lg md:text-2xl font-regular">Improve stickiness</h6>
+              </div>
+              <div className="flex flex-col items-center text-white">
+                {/* <Image
+                  className="pb-8"
+                  src={figmapIconLike}
+                  alt="Like icon"
+                  width={54}
+                  height={54}
+                /> */}
+                <h5 className="text-2xl md:text-4xl font-bold">DAU</h5>
+                <h6 className="text-lg md:text-2xl font-regular">Improved</h6>
+              </div>
+              <div className="flex flex-col items-center text-white">
+                {/* <Image
+                  className="pb-8"
+                  src={figmapIconMau}
+                  alt="MAU icon"
+                  width={54}
+                  height={54}
+                /> */}
+                <h4 className="text-2xl md:text-4xl font-bold">MAU</h4>
+                <h6 className="text-lg md:text-2xl font-regular">Improved</h6>
+              </div>
+             {/*  <div className="flex flex-col items-center text-white">
+                <Image
+                  className="pb-8"
+                  src={figmapIconInstalls}
+                  alt="Installs icon"
+                  width={54}
+                  height={54}
+                /> 
+                <h4 className="text-2xl md:text-4xl font-bold">+38k</h4>
+                <h6 className="text-lg md:text-2xl font-regular">Used by</h6>
+              </div>*/}
+            </div>
+
+            {/* <Image
+              className="mx-auto relative reveal"
+              alt="Image project"
+              src={figmapCommunityList}
+              width={1111}
+              height={586}
+            /> */}
+          </div>
+        </div>
+
+
         <ProjectBlock
           offsetLeft
           type={5}
@@ -134,6 +202,17 @@ export default function NewRelic(props) {
           texts={[
             "All capabilities consolidation",
             "New Relic has plenty of capabilities in order to troubleshoot, monitor and observe your system. In addition to this there are some curated custom and official applications which offer extra features as a part of the platform programmability and users can make their own ones.<br/><br/>This project was aiming to merge all the things that the product can do in just one place to show it at a glance. The challenge was to do it covering the needs of the different user journeys and being useful and intuitive for all of them.",
+          ]}
+        />
+        <ProjectBlock
+          type={1}
+          // invertTextColor
+          backgroundColor="#00344A"
+          images={[qatiumIllustration1]}
+          texts={[
+            "Ideation",
+            "From thinking to production, it was a tough process that involved several diagrams and design thinking techniques.",
+            "Researchers, designers and engineers were involved in this process. I enjoyed it a lot."
           ]}
         />
          <ProjectBlock
