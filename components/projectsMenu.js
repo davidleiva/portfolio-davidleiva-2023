@@ -169,9 +169,9 @@ const ProjectsMenu = (props,ref) => {
                     <li className='menuItem'>
                         <Link onMouseEnter={() => showBackground('.imageBackground5')} onMouseLeave={() => hiddeBackground('.imageBackground5')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 5 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/cognizant">Gognizant</Link>
                     </li>
-                    <li className='menuItem'>
+                    {/* <li className='menuItem'>
                         <Link onMouseEnter={() => showBackground('.imageBackground6')} onMouseLeave={() => hiddeBackground('.imageBackground6')} className={`no-underline hover:opacity-100 ${props.menuItemActive == 6 ? "opacity-100 pointer-events-none" : "opacity-70"}`} href="/projects/sumem">Sumem</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
 

@@ -65,6 +65,7 @@ export default function ProjectCover(props) {
                 className={`absolute top-1/2 -translate-y-1/2 left-0 z-[${index+1}] w-full h-auto`}
                 alt={`Image project ${index + 1}`}
                 src={image}
+                style={{ padding: '32px'}}
               />
             ))
           }         
