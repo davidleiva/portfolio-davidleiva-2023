@@ -180,7 +180,7 @@ const ProjectsMenu = (props,ref) => {
             <Image fill className='imageBackground3 hide-back object-cover opacity-0 z-[3]' src={`/assets/timedi-cover-background-2.png`} alt='Project Timedi background image' />
             <Image fill className='imageBackground4 hide-back object-cover opacity-0 z-[4]' src={`/assets/landbot-cover-background-2.png`} alt='Project Landbot background image' />
             <Image fill className='imageBackground5 hide-back object-cover opacity-0 z-[5]' src={`/assets/cognizant-cover-background-2.png`} alt='Project Gognizant background image' />
-            <Image fill className='imageBackground6 hide-back object-cover opacity-0 z-[6]' src={`/assets/sumem-cover-background.png`} alt='Project Sumem background image' />
+            <Image fill className='imageBackground6 hide-back object-cover opacity-0 z-[6]' src={`/assets/cellphones.jpeg`} alt='Project Sumem background image' />
         </div>
     );
 }

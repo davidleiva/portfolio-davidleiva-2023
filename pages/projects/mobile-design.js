@@ -67,7 +67,7 @@ export default function GlobalOmnium(props) {
           title="Product"
           subtitle="Native Mobile Design"
           role="UX/UI Designer"
-          client="Global Omnium, New Relic, Landbot, and more."
+          client="Global Omnium, Landbot, and more."
           heroImage={globalOmniumCoverHero}
           backgroundImage={globalOmniumCoverBackground}
           url="www.globalomnium.com"
