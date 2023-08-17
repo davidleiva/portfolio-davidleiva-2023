@@ -24,7 +24,7 @@ import figmapIconFigma from "../../public/assets/figmap-icon-figma.png";
 import figmapIconLike from "../../public/assets/figmap-icon-like.png";
 import figmapIconInstalls from "../../public/assets/figmap-icon-installs.png";
 import figmapIconMau from "../../public/assets/figmap-icon-mau.png";
-import globalOmniumCoverBackground from "../../public/assets/newrelic-cover-background.jpg";
+import cellphonesCoverBackground from "../../public/assets/cellphones.jpeg";
 
 import qatiumIllustration1 from "../../public/assets/bbva-detail.png";
 
@@ -181,10 +181,10 @@ export default function Figmap(props) {
       </div>
       <ProjectFooter
         {...props}
-        backgroundColor="#303030"
-        backgroundImage={globalOmniumCoverBackground}
-        title="New Relic"
-        url="newrelic"
+        backgroundColor="#0A2A59"
+        backgroundImage={cellphonesCoverBackground}
+        title="Mobile Design"
+        url="mobile-design"
       />
     </>
   );

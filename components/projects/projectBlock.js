@@ -34,11 +34,18 @@ export default function ProjectBlock(props) {
           case 1:
             return (
               <div className={`max-w-5xl p-8 xl:p-8`}>
-                <h3 className="text-lg reveal">{props.texts[0]}</h3>
+                
+                {
+                  props.texts && props.texts[0] ?
+                  <h3 className="text-lg reveal">{props.texts[0]}</h3> : null
+                }
+
+                { props.texts && props.texts[0] ?
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-5 reveal">
                   <p className="text-base font-extralight">{props.texts[1]}</p>
                   <p className="text-base font-extralight">{props.texts[2]}</p>
-                </div>
+                </div> : null
+                }
                 {props.images && (
                   <Image
                     className="mx-auto max-w-xl w-full relative z-10 top-24 -mt-16 reveal"
