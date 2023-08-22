@@ -229,7 +229,7 @@ export default function Home() {
               <ul className="flex justify-center py-5 ">
               <li className="mr-6">
                   <a
-                    href="https://drive.google.com/file/d/1TVcDo5O5d7_QjNhyALz2-MvDLzUDX7sJ/view"
+                    href="https://drive.google.com/file/d/1XWOkgQY9IXrC8C8m6YqEexKBbVZQDqAl/view"
                     target="_blank"
                     rel="noreferrer"
                   >
