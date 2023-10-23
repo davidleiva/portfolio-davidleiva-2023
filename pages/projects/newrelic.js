@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import Head from "next/head";
 // Animations
-import {parallaxBlockImages,revealWhenScroll, revealFromCenter} from "../../components/utils/animation";
+import { parallaxBlockImages, revealWhenScroll, revealFromCenter } from "../../components/utils/animation";
 // Project building blocks
 import ProjectCover from "../../components/projects/projectCover";
 import ProjectBlock from "../../components/projects/projectBlock";
@@ -47,7 +47,7 @@ export default function NewRelic(props) {
     // scroll to top on page load
     window.scrollTo(0, 0);
     animateUI();
-    return () => {};
+    return () => { };
   }, []);
 
   const animateUI = () => {
@@ -64,7 +64,7 @@ export default function NewRelic(props) {
     <>
       <Head>
         <title>David Leiva - Portfolio - New Relic</title>
-        <meta name="description" content="Projects and use cases working at New Relic as a Senior Product Designer"/>
+        <meta name="description" content="Projects and use cases working at New Relic as a Senior Product Designer" />
         <link rel="preload" href="/assets/newrelic-cover-hero-1.png" as="image" />
         <link rel="preload" href="/assets/newrelic-cover-hero-2.png" as="image" />
         <link rel="preload" href="/assets/newrelic-cover-hero-3.png" as="image" />
@@ -94,6 +94,23 @@ export default function NewRelic(props) {
             "It let them monitor, debug, and improve their entire stack. Measuring performance getting analytics and getting useful insights throughout the full software developing lifecycle. ",
           ]}
         />
+
+        {/* Custom Figmap block  */}
+        <div
+          className={`relative flex justify-center overflow-hidden pb-16 -mt-16`}
+          style={{ backgroundColor: "#161C22" }}
+        >
+          <div className="max-w-5xl px-8 xl:px-0 flex flex-col">
+            <div className="grid reveal">
+              <div className="flex flex-col text-white">
+                <h4 className="text-2xl md:text-2xl font-bold">New Relic&apos;s North Star Metric</h4>
+                <h6 className="text-lg md:text-xl font-regular">Customer Lifetime Value<br /><small>(CLV) = (Average Purchase Value x Purchase Frequency x Customer Lifespan)</small></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <ProjectBlock
           offsetLeft
           type={5}
@@ -105,6 +122,68 @@ export default function NewRelic(props) {
             "Unifying and consolidating the storytelling of entities as an artifact which emits and/or receives data represented visually as an hexagon shape around the whole product.<br/><br/>The high density view or honeycomb aims to show in a more visual way your entities and stand out the most relevant metrics and issues that can affect your system entity health.<br/><br/>Decreasing the cognitive load for non advanced users introducing the concept of entity and system health to make it more human understandable for those entities which are non performing properly or have deviations, having security issues, alarms alerting, and much more. Converging different sources that can affect it in just one concept.",
           ]}
         />
+        {/* Custom Figmap block  */}
+        <div
+          className={`relative flex justify-center overflow-hidden -mt-16`}
+          style={{ backgroundColor: "#022D3F" }}
+        >
+          <div className="max-w-5xl px-8 xl:px-0 flex flex-col items-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 pt-0 pb-8 max-w-4xl reveal">
+              <div className="flex flex-col items-center text-white">
+                {/* <Image
+                  className="pb-8"
+                  src={figmapIconFigma}
+                  alt="Figma icon"
+                  width={54}
+                  height={54}
+                /> */}
+                <h4 className="text-2xl md:text-2xl font-bold">Goal</h4>
+                <h6 className="text-lg md:text-xl font-regular">Improve stickiness</h6>
+              </div>
+              <div className="flex flex-col items-center text-white">
+                {/* <Image
+                  className="pb-8"
+                  src={figmapIconLike}
+                  alt="Like icon"
+                  width={54}
+                  height={54}
+                /> */}
+                <h5 className="text-2xl md:text-2xl font-bold">DAU</h5>
+                <h6 className="text-lg md:text-xl font-regular">Improved</h6>
+              </div>
+              <div className="flex flex-col items-center text-white">
+                {/* <Image
+                  className="pb-8"
+                  src={figmapIconMau}
+                  alt="MAU icon"
+                  width={54}
+                  height={54}
+                /> */}
+                <h4 className="text-2xl md:text-2xl font-bold">MAU</h4>
+                <h6 className="text-lg md:text-xl font-regular">Improved</h6>
+              </div>
+              {/*  <div className="flex flex-col items-center text-white">
+                <Image
+                  className="pb-8"
+                  src={figmapIconInstalls}
+                  alt="Installs icon"
+                  width={54}
+                  height={54}
+                /> 
+                <h4 className="text-2xl md:text-4xl font-bold">+38k</h4>
+                <h6 className="text-lg md:text-2xl font-regular">Used by</h6>
+              </div>*/}
+            </div>
+
+            {/* <Image
+              className="mx-auto relative reveal"
+              alt="Image project"
+              src={figmapCommunityList}
+              width={1111}
+              height={586}
+            /> */}
+          </div>
+        </div>
 
 
         <ProjectBlock
@@ -112,7 +191,7 @@ export default function NewRelic(props) {
           type={5}
           className="parallax-block-2"
           backgroundColor="#00344A"
-          images={[newrelicNavigation1, newrelicNavigation4, newrelicNavigation2, newrelicNavigation3 ]}
+          images={[newrelicNavigation1, newrelicNavigation4, newrelicNavigation2, newrelicNavigation3]}
           texts={[
             "Navigation revamp",
             "As a part of the team who revamped the new product navigation I was working on the initial research, early concepts and interactive probe of concepts which ended up conforming the new left navigation which was launched together with the new company rebranding.<br/><br/>The challenge was to find the most scalable approach for the plenty of verticals and solutions that the product has and be useful not only for advanced users but also for newbie ones and let customisation for those who need to make their own space based on their user profiling, SRE, developers, DevOps…",
@@ -133,8 +212,8 @@ export default function NewRelic(props) {
                   width={54}
                   height={54}
                 /> */}
-                <h4 className="text-2xl md:text-4xl font-bold">Goal</h4>
-                <h6 className="text-lg md:text-2xl font-regular">Improve stickiness</h6>
+                <h4 className="text-lg md:text-xl font-bold text-center font-bold">Goal</h4>
+                <h6 className="text-base font-regular text-center">Improve engagement</h6>
               </div>
               <div className="flex flex-col items-center text-white">
                 {/* <Image
@@ -144,21 +223,21 @@ export default function NewRelic(props) {
                   width={54}
                   height={54}
                 /> */}
-                <h5 className="text-2xl md:text-4xl font-bold">DAU</h5>
-                <h6 className="text-lg md:text-2xl font-regular">Improved</h6>
+                <h5 className="text-lg md:text-xl font-bold text-center">Average Session Duration</h5>
+                <h6 className="text-base font-regular text-center">10% more</h6>
               </div>
               <div className="flex flex-col items-center text-white">
                 {/* <Image
                   className="pb-8"
                   src={figmapIconMau}
                   alt="MAU icon"
-                  width={54}
+                  width={54}  
                   height={54}
                 /> */}
-                <h4 className="text-2xl md:text-4xl font-bold">MAU</h4>
-                <h6 className="text-lg md:text-2xl font-regular">Improved</h6>
+                <h4 className="text-lg md:text-xl font-bold text-center">Feature Adoption Metric</h4>
+                <h6 className="text-base font-regular text-center">Top 5 features usage <br />improved to 60%</h6>
               </div>
-             {/*  <div className="flex flex-col items-center text-white">
+              {/*  <div className="flex flex-col items-center text-white">
                 <Image
                   className="pb-8"
                   src={figmapIconInstalls}
@@ -198,7 +277,7 @@ export default function NewRelic(props) {
           type={5}
           className="parallax-block-4"
           backgroundColor="#00344A"
-          images={[newrelicCapabilities1,newrelicCapabilities2,newrelicCapabilities3,newrelicCapabilities4,newrelicCapabilities5]}
+          images={[newrelicCapabilities1, newrelicCapabilities2, newrelicCapabilities3, newrelicCapabilities4, newrelicCapabilities5]}
           texts={[
             "All capabilities consolidation",
             "New Relic has plenty of capabilities in order to troubleshoot, monitor and observe your system. In addition to this there are some curated custom and official applications which offer extra features as a part of the platform programmability and users can make their own ones.<br/><br/>This project was aiming to merge all the things that the product can do in just one place to show it at a glance. The challenge was to do it covering the needs of the different user journeys and being useful and intuitive for all of them.",
@@ -215,18 +294,18 @@ export default function NewRelic(props) {
             "Researchers, designers and engineers were involved in this process. I enjoyed it a lot."
           ]}
         />
-         <ProjectBlock
+        <ProjectBlock
           offsetLeft
           type={5}
           className="parallax-block-5"
           backgroundColor="#022D3F"
-          images={[newrelicFigmaWorkflow1,newrelicFigmaWorkflow2,newrelicFigmaWorkflow3]}
+          images={[newrelicFigmaWorkflow1, newrelicFigmaWorkflow2, newrelicFigmaWorkflow3]}
           texts={[
             "Figma standards",
             "Driving and supporting the DesignOps team in order to set up the Figma guidelines to get a common way to work and use the tool for all the product designers composed of around 120 people, content designers and ux researchers with a feature centric and scalable approach.<br/><br/>Going from file and cover templates, layer naming conventions, file structure location, control version and branching, documentation, flows, handover and collaboration… to automatisation like centralized source of truth connected to Confluence, layer naming linting or synchronized documentation.",
           ]}
         />
-    
+
       </div>
       <ProjectFooter
         {...props}
@@ -238,3 +317,6 @@ export default function NewRelic(props) {
     </>
   );
 }
+
+
+// Customer Lifetime Value (CLV) = (Average Purchase Value x Purchase Frequency x Customer Lifespan)
